@@ -1,0 +1,1 @@
+﻿To go from v1 to v2, first we would need to create a table that will list multiple playlists by playlist id, this will be a one-to-many relationship. Secondly to make multiple account types we will add a table that takes in the different privileges which is a one-to-one relationship with the “user” table, being each user can have any one type of account.
